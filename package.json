@@ -1,6 +1,6 @@
 {
-  "name": "@solenopsys/compiler2",
-  "version": "0.2.1",
+  "name": "@solenopsys/uimatrix-modals",
+  "version": "0.0.1",
   "scripts": {
     "test": "node index.js",
     "build": "tsc -p tsconfig.lib.json"
