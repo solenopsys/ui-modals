@@ -1,4 +1,5 @@
 {
+  "name": "modals",
   "projectType": "library",
   "sourceRoot": "libs/fui/modals/src",
   "prefix": "hyperconverged",
