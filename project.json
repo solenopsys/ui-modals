@@ -1,14 +1,14 @@
 {
   "name": "modals",
   "projectType": "library",
-  "sourceRoot": "libs/fui/modals/src",
+  "sourceRoot": "packages/uimatrix/modals/src",
   "prefix": "hyperconverged",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/fui/modals"],
+      "outputs": ["coverage/packages/uimatrix/modals"],
       "options": {
-        "jestConfig": "libs/fui/modals/jest.config.js",
+        "jestConfig": "packages/uimatrix/modals/jest.config.js",
         "passWithNoTests": true
       }
     },
@@ -16,8 +16,8 @@
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "libs/fui/modals/src/**/*.ts",
-          "libs/fui/modals/src/**/*.html"
+          "packages/uimatrix/modals/src/**/*.ts",
+          "packages/uimatrix/modals/src/**/*.html"
         ]
       },
       "outputs": ["{options.outputFile}"]
