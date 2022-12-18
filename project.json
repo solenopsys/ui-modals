@@ -6,7 +6,9 @@
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/uimatrix/modals"],
+      "outputs": [
+        "coverage/packages/uimatrix/modals"
+      ],
       "options": {
         "jestConfig": "packages/uimatrix/modals/jest.config.js",
         "passWithNoTests": true
@@ -20,7 +22,9 @@
           "packages/uimatrix/modals/src/**/*.html"
         ]
       },
-      "outputs": ["{options.outputFile}"]
+      "outputs": [
+        "{options.outputFile}"
+      ]
     }
   },
   "tags": []
