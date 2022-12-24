@@ -1,2 +1,2 @@
-export * from './lib/fui-modals.module';
+export * from './lib/ui-modals.module';
 export * from './lib/model';

@@ -6,7 +6,7 @@ import {DialogConfig} from "../model";
 
 
 @Component({
-  selector: 'fui-modal',
+  selector: 'ui-modal',
   templateUrl: './modal.component.html',
   styleUrls: ['./modal.component.css'],
 })

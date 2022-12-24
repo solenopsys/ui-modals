@@ -1,0 +1,9 @@
+{
+  "name": "Modal Window",
+  "description": "Simple modal window",
+  "package": "@solenopsys/uimatrix-modals",
+  "component": "ModalComponent",
+  "io": {
+
+  }
+}
