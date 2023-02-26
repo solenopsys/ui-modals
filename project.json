@@ -1,5 +1,5 @@
 {
-  "name": "modals",
+  "name": "ui-modals",
   "projectType": "library",
   "sourceRoot": "packages/uimatrix/ui-modals/src",
   "prefix": "ui",
