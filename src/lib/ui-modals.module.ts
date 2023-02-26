@@ -1,7 +1,7 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {ModalComponent} from "./modal/modal.component";
-import {DeclaredService} from "@solenopsys/uimatrix-utils";
+import {DeclaredService} from "@solenopsys/ui-utils";
 
 
 const components = [
@@ -15,6 +15,6 @@ const components = [
 })
 export class UIModalsModule {
   constructor(private ds: DeclaredService) {
-    ds.addComps("@solenopsys/uimatrix-modals", components)
+    ds.addComps("@solenopsys/ui-modals", components)
   }
 }

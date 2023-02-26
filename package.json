@@ -1,5 +1,5 @@
 {
-  "name": "@solenopsys/uimatrix-modals",
+  "name": "@solenopsys/ui-modals",
   "version": "0.0.1",
   "dependencies": {
     "angular-resize-event": "^3.2.0"

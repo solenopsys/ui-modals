@@ -1,16 +1,16 @@
 {
   "name": "modals",
   "projectType": "library",
-  "sourceRoot": "packages/uimatrix/modals/src",
+  "sourceRoot": "packages/uimatrix/ui-modals/src",
   "prefix": "ui",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": [
-        "coverage/packages/uimatrix/modals"
+        "coverage/packages/uimatrix/ui-modals"
       ],
       "options": {
-        "jestConfig": "packages/uimatrix/modals/jest.config.js",
+        "jestConfig": "packages/uimatrix/ui-modals/jest.config.js",
         "passWithNoTests": true
       }
     },
@@ -18,8 +18,8 @@
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "packages/uimatrix/modals/src/**/*.ts",
-          "packages/uimatrix/modals/src/**/*.html"
+          "packages/uimatrix/ui-modals/src/**/*.ts",
+          "packages/uimatrix/ui-modals/src/**/*.html"
         ]
       },
       "outputs": [
