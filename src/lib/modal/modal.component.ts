@@ -8,7 +8,7 @@ import {DialogConfig} from "../model";
 @Component({
   selector: 'ui-modal',
   templateUrl: './modal.component.html',
-  styleUrls: ['./modal.component.css'],
+  styleUrls: ['./modal.component.scss'],
 })
 export class ModalComponent implements OnInit, OnDestroy {
 
