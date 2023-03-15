@@ -1,9 +1,9 @@
 {
   "name": "ui-modals",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "projectType": "library",
   "sourceRoot": "packages/uimatrix/ui-modals/src",
   "prefix": "ui",
-
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
