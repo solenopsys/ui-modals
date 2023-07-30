@@ -1,10 +1,10 @@
-export interface ButtonCommand {
+export type ButtonCommand ={
   icon?: string
   title: string
   command: () => {}
 }
 
-export interface DialogConfig {
+export type DialogConfig = {
   text: string;
   buttons: ButtonCommand[]
 }
